@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Orbitron:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.main {
+    background: linear-gradient(#F1828e, #e6e7ec);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow: hidden;
+
+
+
+
+
+}
+
+.top {
+
+
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    height: 50vh;
+    position: relative;
+
+}
+
+
+
+.main__img {
+    flex: 0.6;
+
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+
+}
+
+.main__title {
+    flex: 0.6;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__img>img {
+    width: 80%;
+    height: 100%;
+    filter: sepia(30%);
+}
+
+.main__title>h1 {
+    font-size: 3.2vmax;
+    text-shadow: rgb(92, 25, 13);
+
+
+}
+a {
+    text-decoration: none;
+}
+
+.main__title>.info>p {
+    font-family: 'Abel';
+    font-style: italic;
+    font-size: 1rem;
+    padding: 2px;
+}
+
+.bottom {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+
+}
+
+.bottom>h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.price_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+
+.prices {
+    display: flex;
+
+    flex: 1
+}
+
+.size {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.price>h5 {
+    padding: 8px;
+    font-size: 2rem;
+}
+
+.size>h5 {
+    padding: 8px;
+    font-size: 2rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    height: 10vh;
+}
+
+.footer i {
+    font-size: 24px;
+    color: #B32F95;
+    padding: 15px;
+}
+
+.footer .fa-whatsapp {
+    color: green;
+}
